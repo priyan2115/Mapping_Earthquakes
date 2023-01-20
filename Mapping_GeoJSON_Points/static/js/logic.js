@@ -29,6 +29,7 @@ let map = L.map('mapid', {
     layers: [streets]
 })
 
+
 // Pass our map layers into our layers control and add the layers control to the map.
 L.control.layers(baseMaps).addTo(map);
 //then we add our "streets" tile layer to the map.
